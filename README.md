@@ -1,0 +1,3 @@
+This project aims to recognize American Sign Language (ASL) using a Random Forest classifier.The dataset is created using OpenCV, where each alphabet is categorized into distinct classes, with each class containing 100 images.
+MediaPipe is utilized to generate landmarks on the hands, capturing the X and Y coordinates of these landmarks and storing them in a pickle file. The dataset is then split into training and testing sets for model development. 
+After training, real-time hand movements are captured using OpenCV, and the corresponding letter is displayed on the screen, making ASL recognition both interactive and intuitive.
